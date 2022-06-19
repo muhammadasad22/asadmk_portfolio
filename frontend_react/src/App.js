@@ -8,10 +8,11 @@ import {
   Testimonial,
   Work,
 } from "./container/index";
+import "./App.scss";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="app">
       <Navbar />
       <Header />
       <About />
